@@ -1,0 +1,33 @@
+#num{
+    width: 50px;
+    height: 50px;
+    border: 2px solid black;
+    display: flex;
+    font-size: 20px;
+    font-weight: 700;
+    justify-content: center;
+    align-items: center;
+}
+#boxes{
+    display: flex;
+    gap: 20px;
+}
+p{
+    font-size: 20px;
+    color: red;
+    font-weight: 500;
+}
+
+@media (max-width:600px){
+    #num{
+        width: 40px;
+        height: 40px;
+        font-size: 15px;
+        font-weight: 600;
+    }
+    #boxes{
+        display: flex;
+        /* flex-direction: column; */
+        gap: 10px;
+    }
+}
